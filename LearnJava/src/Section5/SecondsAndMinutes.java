@@ -22,10 +22,10 @@ public class SecondsAndMinutes {
             int hour = seconds / 3600;
             seconds = seconds % 3600;
 
-            //return (""+ hour + "h 0m " + seconds + "s");
+            return (""+ hour + "h 0m " + seconds + "s");
 
         }
-        //return ("0h 0m " + seconds + "s");
+        return ("0h 0m " + seconds + "s");
     }
 
     public static String getDurationString (int minutes, int seconds) {
