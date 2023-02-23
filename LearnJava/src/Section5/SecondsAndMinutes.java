@@ -16,8 +16,7 @@ public class SecondsAndMinutes {
         if (seconds > 0 && seconds >= 60) {
             if (seconds >= 3600) {
                 seconds = seconds % 60;
-                return seconds;
-                return hours;
+                return (""+  "h 0m " + seconds + "s");
             }
             int hour = seconds / 3600;
             seconds = seconds % 3600;
