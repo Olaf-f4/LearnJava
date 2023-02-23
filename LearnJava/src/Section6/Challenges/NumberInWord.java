@@ -21,6 +21,6 @@ public class NumberInWord {
     }
 
     public static void main(String[] args) {
-        printNumberInWord(223);
+        printNumberInWord(-1);
     }
 }

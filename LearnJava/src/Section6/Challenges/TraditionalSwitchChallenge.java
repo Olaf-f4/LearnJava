@@ -16,13 +16,13 @@ public class TraditionalSwitchChallenge {
                 break;
             case 'C':
                 System.out.println(letter +" - Charlie");
-                break;
+
             case 'D':
                 System.out.println(letter +" - Dog");
-                break;
+
             case 'E':
                 System.out.println(letter +" - Echo");
-                break;
+
             default:
                 System.out.println(letter + " not found");
         }
