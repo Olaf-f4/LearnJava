@@ -3,6 +3,7 @@ package Section6.Challenges;
 public class TraditionalSwitchChallenge {
 
     //NATO Phonetic alphabet
+    //Easy
     public static void main(String[] args) {
 
         char letter = 'D';
